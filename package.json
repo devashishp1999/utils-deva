@@ -1,0 +1,23 @@
+{
+  "name": "utils-deva",
+  "version": "1.0.1",
+  "description": "utility functions and classes at finger-tips",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"no test available\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devashishp1999/utils-dev.git"
+  },
+  "keywords": [
+    "utility-functions",
+    "helper-functions"
+  ],
+  "author": "devashish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devashishp1999/utils-dev/issues"
+  },
+  "homepage": "https://github.com/devashishp1999/utils-dev#readme"
+}
