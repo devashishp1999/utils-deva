@@ -80,7 +80,7 @@ https://cdn.jsdelivr.net/gh/devashishp1999/utils-deva@main/main.js
 <!-- USAGE EXAMPLES -->
 
 <details close>
-  <summary><h2>List of FunkyFunctions 👇</h2></summary>
+  <summary><strong>List of FunkyFunctions 👇</strong></summary>
   <ol>
     <li><a href="#toast"><code>new Toast()</code></a></li>
   </ol>
