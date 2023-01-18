@@ -58,17 +58,23 @@ Use these functionalities because:
   const toast = new Toast();
 </script>
 ```
+<br />
+• Or install with NPM:
 
+```sh
+npm i utils-deva
+```
+<br />
 • Or include one of the following CDN link in your project.
 
 ```sh
-  https://devashishp1999.github.io/funkyfunctions/main.min.js
+https://devashishp1999.github.io/funkyfunctions/main.min.js
 ```
 
 or
 
 ```sh
-https://cdn.jsdelivr.net/gh/devashishp1999/funkyfunctions@main/main.min.js
+https://cdn.jsdelivr.net/gh/devashishp1999/utils-deva@main/main.js
 ```
 
 <!-- USAGE EXAMPLES -->
