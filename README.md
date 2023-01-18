@@ -68,7 +68,7 @@ npm i utils-deva
 • Or include one of the following CDN link in your project.
 
 ```sh
-https://devashishp1999.github.io/funkyfunctions/main.min.js
+https://devashishp1999.github.io/utils-deva/main.js
 ```
 
 or
