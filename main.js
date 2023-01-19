@@ -9,7 +9,6 @@ export class Toast {
     this.css.innerHTML = `
         .toast-container {
           position: fixed;
-          margin: 2vh;
           z-index: 999;
         }
         .toast {
@@ -30,30 +29,31 @@ export class Toast {
         .toast-center {
           top: 50%;
           left: 50%;
-          transform: translate(-50%, -50%);
+          transform: translateX(-50%);
         }
   
         .toast-top {
             top: 0;
             bottom: unset;
-            transform: translate(-50%, 0);
         }
     
         .toast-bottom {
             bottom: 0;
             top: unset;
-            transform: translate(-50%, 0);
         }
         
         .toast-left {
             left: 0;
             right: unset;
-            transform: translate(0, -50%);
         }
         
         .toast-right {
             right: 0;
             left: unset;
+        }
+
+       .toast-left.toast-center,
+       .toast-right.toast-center {
             transform: translate(0, -50%);
         }
   
@@ -77,7 +77,7 @@ export class Toast {
     const {
       text = "Toast text",
       position = "bottom",
-      duration = 3000,
+      duration = 3,
       onClose = null,
       styles = {},
       animations = {},
@@ -106,8 +106,10 @@ export class Toast {
 
     // Add the custom fonts to the toast element
     Object.assign(toast.style, fonts);
+
     // Add the toast element to the container
-    this.container.appendChild(toast);
+    if (position.slice(" ").includes("bottom")) this.container.prepend(toast);
+    else this.container.appendChild(toast);
 
     // Remove the toast after the specified duration
     setTimeout(() => {
@@ -115,7 +117,7 @@ export class Toast {
       if (onClose && typeof onClose === "function") {
         onClose();
       }
-    }, duration);
+    }, duration * 1000);
 
     toast.addEventListener("click", function () {
       this.remove(this);
