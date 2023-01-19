@@ -99,7 +99,7 @@ To show a toast, call the `show()` method on the Toast instance and pass in an o
 toast.show({
   text: "Hello World",
   position: "top",
-  duration: 3000,
+  duration: 3,
   styles: {
     backgroundColor: "red",
     color: "white",
@@ -134,7 +134,7 @@ toast.removeAll();
 
 The options object passed to the `show()` method can include the following properties:
 
-<ul><li><code>text</code> (string): The text to display in the toast (default: "Toast text").</li><li><code>position</code> (string): The position of the toast. Available options are "top", "bottom", "center", "left" and "right" (default: "bottom").</li><li><code>duration</code> (number): The duration in milliseconds for which the toast should be displayed (default: 3000).</li><li><code>onClose</code> (function): A callback function that is invoked when the toast is closed (default: null).</li><li><code>styles</code> (object): An object containing custom CSS styles to be applied to the toast (default: {}).</li><li><code>animations</code> (object): An object containing custom CSS animations to be applied to the toast (default: {}).</li><li><code>fonts</code> (object): An object containing custom fonts to be applied to the toast (default: {}).</li></ul>
+<ul><li><code>text</code> (string): The text to display in the toast (default: "Toast text").</li><li><code>position</code> (string): The position of the toast. Available options are "top", "bottom", "center", "left" and "right" (default: "bottom").</li><li><code>duration</code> (number): The duration in seconds for which the toast should be displayed (default: 3).</li><li><code>onClose</code> (function): A callback function that is invoked when the toast is closed (default: null).</li><li><code>styles</code> (object): An object containing custom CSS styles to be applied to the toast (default: {}).</li><li><code>animations</code> (object): An object containing custom CSS animations to be applied to the toast (default: {}).</li><li><code>fonts</code> (object): An object containing custom fonts to be applied to the toast (default: {}).</li></ul>
 
 ### Example
 
@@ -143,7 +143,7 @@ const toast = new Toast();
 toast.show({
   text: "Hello World",
   position: "top",
-  duration: 3000,
+  duration: 2.5,
   styles: {
     backgroundColor: "red",
     color: "white",
