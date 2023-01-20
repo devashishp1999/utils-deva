@@ -33,6 +33,8 @@
 
 ## About The Project
 
+<strong>last update</strong> : Jan 20, 2023 6:00 am (UTC)
+
 Every website need some common elements to be implemented for a consistent UI/UX. Here are some simple UI components and funtionalities just a function call away. These all classes & functions are a solution to the problems that I faced while developing various websites, I bundled them together here.
 
 Use these functionalities because:
@@ -58,12 +60,14 @@ Use these functionalities because:
   const toast = new Toast();
 </script>
 ```
+
 <br />
 • Or install with NPM:
 
 ```sh
 npm i utils-deva
 ```
+
 <br />
 • Or include one of the following CDN link in your project.
 
