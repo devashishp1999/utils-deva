@@ -33,7 +33,13 @@
 
 ## About The Project
 
-<strong>last update</strong> : Jan 20, 2023 6:00 am (UTC)
+<details close>
+  <summary><strong>last update</strong> : Jan 26, 2023 7:40 am (UTC)</summary>
+  <ul>
+    <li><code>Fixed CDN links</code> : now usable</li>
+  </ul>
+</details>
+<br/>
 
 Every website need some common elements to be implemented for a consistent UI/UX. Here are some simple UI components and funtionalities just a function call away. These all classes & functions are a solution to the problems that I faced while developing various websites, I bundled them together here.
 
@@ -45,9 +51,7 @@ Use these functionalities because:
 
 ### Built With
 
-- [![JavaScript][javascript.com]][javascript-url]
-- [![HTML][html.com]][html-url]
-- [![CSS][css.com]][css-url]
+[![JavaScript][javascript.com]][javascript-url] &nbsp; [![HTML][html.com]][html-url] &nbsp; [![CSS][css.com]][css-url]
 
 ## Installation
 
@@ -55,43 +59,46 @@ Use these functionalities because:
 
 ```js
 <script src="path/to/main.js"></script>
+<!-- OR -->
+<script src="https://cdn.jsdelivr.net/gh/devashishp1999/utils-deva@main/main.min.js"></script>
 
 <script>
   const toast = new Toast();
+
+  toast.show(); // Show default toast
 </script>
 ```
 
 <br />
-• Or install with NPM:
+Or install with NPM:
 
 ```sh
 npm i utils-deva
 ```
 
 <br />
-• Or include one of the following CDN link in your project.
+Or include one of the following CDN link in your project.
 
 ```sh
-https://devashishp1999.github.io/utils-deva/main.js
+https://devashishp1999.github.io/utils-deva/main.min.js
 ```
-
 or
-
 ```sh
-https://cdn.jsdelivr.net/gh/devashishp1999/utils-deva@main/main.js
+https://cdn.jsdelivr.net/gh/devashishp1999/utils-deva@main/main.min.js
 ```
 
 <!-- USAGE EXAMPLES -->
 
+## List of Classes :
 <details close>
-  <summary><strong>List of FunkyFunctions 👇</strong></summary>
+  <summary><strong>👇</strong></summary>
   <ol>
     <li><a href="#toast"><code>new Toast()</code></a></li>
   </ol>
 </details>
 
 <ol>
-  <li id="toast"><h2>Toast</h2></li><br />
+  <li id="toast"><h2>Toast</h2></li>
   
 The Toast class provides a simple and flexible way to create and manage toast notifications in your web application. It allows you to easily customize the look, position and behavior of the toasts, and provides methods for showing, hiding and removing toasts.
 
