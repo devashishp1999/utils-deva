@@ -34,9 +34,10 @@
 ## About The Project
 
 <details close>
-  <summary><strong>last update</strong> : Jan 26, 2023 7:40 am (UTC)</summary>
+  <summary><strong>last update</strong> : Oct 09, 2023 Evening</summary>
   <ul>
     <li><code>Fixed CDN links</code> : now usable</li>
+    <li>Added new class and functions<code>function px()</code> : now usable</li>
   </ul>
 </details>
 <br/>
@@ -94,6 +95,7 @@ https://cdn.jsdelivr.net/gh/devashishp1999/utils-deva@main/main.min.js
   <summary><strong>👇</strong></summary>
   <ol>
     <li><a href="#toast"><code>new Toast()</code></a></li>
+    <li><a href="#swiper"><code>new SwipeCarousal()</code></a></li>
   </ol>
 </details>
 
@@ -175,8 +177,12 @@ This will create a new toast with the text "Hello World" and position it on the 
 
 This library uses `querySelector` and `appendChild` which are supported by all modern browsers.
 
-<!--
-<li><h3>Toast </h3> : A standalone class for creating customizable, dismissable toast notifications.</li><br />-->
+<li id="swiper"><h2>SwipeCarousal</h2></li>
+<li id="swiper"><h2>px()</h2></li>
+<li id="swiper"><h2>$()</h2></li>
+
+Docs are not updated : <br/>
+<code>Contact <a href="mailto:devashishp1999@gmail.com">devashishp1999@gmail.com</a></code>
 </ol>
 
 ### License

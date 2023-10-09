@@ -1,8 +1,8 @@
 {
   "name": "utils-deva",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "utility functions and classes at finger-tips",
-  "main": "main.js",
+  "main": "main.es6.min.js",
   "scripts": {
     "test": "echo \"no test available\""
   },
